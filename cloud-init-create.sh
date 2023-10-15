@@ -52,8 +52,8 @@ fi
 
 sleep 5
 
-#Baixando image
-echo -e 'Baixando image'
+#Baixando a imagem
+echo -e 'Baixando imagem'
 
 wget $IMAGE
 
@@ -88,7 +88,7 @@ qm template $ID
 cd /tmp
 
 sleep 5
-echo -e 'Removendo imagem que foi baixada para criacao do template'
+echo -e 'Removendo a imagem que foi baixada para criacao do template'
 
 rm $OS
 
