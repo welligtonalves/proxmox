@@ -56,7 +56,7 @@ wget $IMAGE
 # Instalando qemu agent na imagem
 echo -e 'Instalando qemu agent na imagem'
 
-virt-customize --install qemu-guest-agent -a $OS
+virt-customize --add $OS --install qemu-guest-agent
 
 sleep 5
 
